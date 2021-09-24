@@ -1,5 +1,5 @@
 {% set name = "delimited-protobuf" %}
-{% set version = "0.0.5" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 41f591fb54c351fcdfac8a704f2406fa6e479c55c8bc7417eba7f1bb4a1dccac
+  sha256: e4239393c4b8e3c89587e016424d1f404bc482db41972febfe7aefd9a38ccbf4
 
 build:
   noarch: python
